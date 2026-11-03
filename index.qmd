@@ -34,7 +34,6 @@ El hilo conductor del curso es el flujo **imagen → preprocesamiento → segmen
 
 ## Recomendaciones
 - Usa Google Colab (no requiere instalación) o un entorno local con Python 3.10+ y el archivo [`requirements.txt`](https://github.com/egonzalez1989/pdi-mcdi/blob/main/requirements.txt).
-- Clona el repositorio para tener los datos con la estructura de carpetas correcta: `git clone https://github.com/egonzalez1989/pdi-mcdi.git`
 - Documenta en Markdown cada decisión: qué técnica aplicas, con qué parámetros y qué observas.
 - Compara métodos con **métricas** y evidencia visual, no solo «a ojo».
 - Mantén un repositorio personal con tus cuadernos versionados.
