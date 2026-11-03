@@ -21,9 +21,13 @@ Trabajarás con enfoques clásicos: segmentación basada en discontinuidades (So
 ### Sesión 3. Separar objetos del fondo y medir qué tan bien lo hacemos
 Comparar métodos de segmentación clásicos y evaluarlos con IoU y Dice.
 
-- Videoconferencias: VC4 (miércoles 17 de febrero), VC5 (miércoles 3 de marzo)
+- Clase síncrona: jueves 18 de febrero, de 18:00 a 20:00 hrs.
 - Cuaderno: [S3_Segmentacion.ipynb](../sesiones/S3_Segmentacion.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S3_Segmentacion.ipynb)
 - Presentación: [S3_Segmentacion.pptx](../presentaciones/S3_Segmentacion.pptx)
+
+### Sesiones opcionales de seguimiento y evaluación
+- Seguimiento (opcional): dudas de la actividad 3A · jueves 4 de marzo, de 18:00 a 19:00 hrs.
+- Evaluación (opcional): retroalimentación de 3A y defensas orales · jueves 18 de marzo, de 18:00 a 19:00 hrs.
 
 ## Actividad
 - **3A. Segmentación de imágenes con OpenCV** (20 puntos, domingo 7 de marzo). [Instrucciones y criterios](../actividades.qmd#act-3a) · [Plantilla](../plantillas/3A_Plantilla_Segmentacion.ipynb) · [Lista de cotejo](../listas_cotejo/LC_3A_lista_cotejo.pdf)

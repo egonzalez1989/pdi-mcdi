@@ -21,9 +21,13 @@ Además, configurarás un entorno reproducible (Jupyter o Google Colab y, opcion
 ### Sesión 1. La imagen como arreglo numérico
 Manipular imágenes como arreglos NumPy y evitar los errores clásicos de color, tipo de dato y compresión.
 
-- Videoconferencias: VC1 (miércoles 13 de enero), VC2 (miércoles 20 de enero)
+- Clase síncrona: jueves 14 de enero, de 18:00 a 20:00 hrs.
 - Cuaderno: [S1_Imagen_digital_como_dato.ipynb](../sesiones/S1_Imagen_digital_como_dato.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S1_Imagen_digital_como_dato.ipynb)
 - Presentación: [S1_Imagen_digital_como_dato.pptx](../presentaciones/S1_Imagen_digital_como_dato.pptx)
+
+### Sesiones opcionales de seguimiento y evaluación
+- Seguimiento (opcional): dudas de la actividad 1A · jueves 21 de enero, de 18:00 a 19:00 hrs.
+- Evaluación (opcional): retroalimentación de 1A y defensas orales · jueves 28 de enero, de 18:00 a 19:00 hrs.
 
 ## Actividad
 - **1A. Introducción y manipulación básica de imágenes con OpenCV** (10 puntos, domingo 24 de enero). [Instrucciones y criterios](../actividades.qmd#act-1a) · [Plantilla](../plantillas/1A_Plantilla_Manipulacion_basica.ipynb) · [Lista de cotejo](../listas_cotejo/LC_1A_lista_cotejo.pdf)

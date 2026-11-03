@@ -22,9 +22,13 @@ El propósito es que seas capaz de seleccionar y combinar adecuadamente estas t�
 ### Sesión 2. Preprocesar con evidencia: filtrar, medir y decidir
 Comparar técnicas de preprocesamiento y justificar la elección con PSNR y SSIM.
 
-- Videoconferencias: VC3 (miércoles 3 de febrero)
+- Clase síncrona: jueves 4 de febrero, de 18:00 a 20:00 hrs.
 - Cuaderno: [S2_Mejora_y_preprocesamiento.ipynb](../sesiones/S2_Mejora_y_preprocesamiento.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S2_Mejora_y_preprocesamiento.ipynb)
 - Presentación: [S2_Mejora_y_preprocesamiento.pptx](../presentaciones/S2_Mejora_y_preprocesamiento.pptx)
+
+### Sesiones opcionales de seguimiento y evaluación
+- Seguimiento (opcional): dudas de la actividad 2A · jueves 11 de febrero, de 18:00 a 19:00 hrs.
+- Evaluación (opcional): retroalimentación de 2A y defensas orales · jueves 25 de febrero, de 18:00 a 19:00 hrs.
 
 ## Actividad
 - **2A. Preprocesamiento de imágenes con OpenCV** (15 puntos, domingo 14 de febrero). [Instrucciones y criterios](../actividades.qmd#act-2a) · [Plantilla](../plantillas/2A_Plantilla_Preprocesamiento.ipynb) · [Lista de cotejo](../listas_cotejo/LC_2A_lista_cotejo.pdf)

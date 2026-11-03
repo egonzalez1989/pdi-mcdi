@@ -12,6 +12,9 @@ Bienvenida, bienvenido al sitio del curso **Procesamiento digital de imágenes**
 2. Antes de cada videoconferencia, revisa los recursos del apartado *Aprende* de la unidad.
 3. Abre el cuaderno de la sesión en Google Colab (botón **Abrir en Colab**) y ejecútalo paso a paso.
 4. Resuelve la actividad con su **plantilla** y revisa su **lista de cotejo** antes de entregar en el aula virtual.
+5. Declara el uso de IA al final de cada libreta y prepárate para una posible [defensa oral](actividades.qmd#uso-ia).
+
+**Clases:** jueves de 18:00 a 20:00 hrs. a partir del 14 de enero · **Seguimiento y evaluación (opcionales):** jueves de 18:00 a 19:00 hrs.
 :::
 
 ## Descripción breve

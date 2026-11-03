@@ -8,8 +8,55 @@ Las cinco actividades son **individuales** y se resuelven en una libreta Jupyter
 ## Antes de entregar
 - `Entorno de ejecución → Reiniciar y ejecutar todo`: el cuaderno debe ejecutarse sin errores.
 - Cada figura va acompañada de su interpretación en Markdown.
-- Cita en formato APA las fuentes consultadas, incluido el uso de asistentes de IA.
+- Cita en formato APA las fuentes consultadas y completa la **declaración de uso de IA**.
 :::
+
+## Uso de inteligencia artificial y defensa oral {#uso-ia}
+
+> **Regla de oro:** Entrega solo código y análisis que puedas explicar y modificar línea por línea.
+
+::: {.columns}
+::: {.column width="50%"}
+**Usos permitidos**
+
+- Comprender conceptos: pedir explicaciones adicionales, ejemplos o analogías sobre un tema visto en clase.
+- Depurar: identificar errores en tu propio código ya elaborado y entender por qué ocurren.
+- Practicar: generar ejercicios o variantes adicionales para reforzar un tema.
+- Revisar la forma: redacción, ortografía o claridad de un texto cuyo contenido e ideas son tuyos.
+- Explorar: orientarte sobre posibles enfoques antes de resolver el problema por tu cuenta.
+:::
+::: {.column width="50%"}
+**Usos no permitidos**
+
+- Entregar como propio código, texto, figuras o resultados generados por IA sin declararlo.
+- Pedir a la IA la solución completa de la actividad en lugar de usarla como apoyo puntual.
+- Entregar código que no entiendas o no puedas modificar.
+- Usar asistentes de IA (incluido Gemini en Colab) durante una defensa oral.
+:::
+:::
+
+**Declaración obligatoria** (sección final de cada libreta; la plantilla ya la incluye):
+
+- Herramienta utilizada (nombre y, si aplica, versión).
+- Para qué la usaste (por ejemplo, «depuración de la sección 3» o «redacción de la conclusión»).
+- Qué partes del trabajo son resultado directo de la IA y cuáles son de tu autoría.
+- Si no usaste IA, indícalo expresamente: «No utilicé herramientas de IA en esta actividad».
+
+**Defensa oral**
+
+- En cada actividad se selecciona de forma pseudoaleatoria a un grupo de estudiantes; cualquier entrega puede ser seleccionada.
+- La defensa es una entrevista individual por videollamada (10–15 min) en las sesiones de evaluación de los jueves o en un horario acordado con el docente.
+- Se comparte la pantalla completa, sin asistentes de IA ni otras pestañas, y se trabaja sobre la propia libreta entregada.
+- Se plantean 4 a 5 preguntas sobre el código (cualquier línea), la lógica de la solución y la teoría; puede pedirse modificar el código y volver a ejecutarlo.
+
+| Situación | Consecuencia |
+|---|---|
+| Uso de IA no declarado | La entrega se revisa con mayor rigor y puede considerarse falta a la integridad académica conforme al reglamento de INFOTEC. |
+| Respuesta inadecuada en la defensa oral | Se descuentan los puntos de los criterios de la lista de cotejo relacionados con la pregunta. |
+| No responder ninguna pregunta de la defensa | La entrega completa puede anularse (0 puntos). |
+| No presentarse a la defensa sin causa justificada | La calificación de la entrega no se confirma (0 puntos). |
+
+Lee el documento [Uso adecuado de la IA en el ámbito académico (PDF)](documentos/Uso_Adecuado_de_IA.pdf).
 
 ## 1A. Introducción y manipulación básica de imágenes con OpenCV {#act-1a}
 
@@ -28,7 +75,8 @@ Cargar, inspeccionar, transformar y guardar imágenes digitales con OpenCV, inte
 5. Rotación: gira la imagen en al menos tres ángulos distintos (por ejemplo, 15°, 45° y 90°) y explica en qué contextos sería necesario corregir la orientación antes de analizarla.
 6. Guardado de resultados: guarda al menos una versión modificada en PNG y en JPEG, vuelve a cargarlas, verifica que se visualizan correctamente y compara el tamaño de ambos archivos.
 7. Documenta cada bloque en celdas Markdown (qué operación aplicas, con qué parámetros y qué observas) y cierra con una conclusión breve.
-8. Guarda tu libreta como 1A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre (1A_Nombre_Apellido.pdf) y entrega ambos archivos en el espacio de la actividad.
+8. Al final de la libreta, completa la declaración de uso de IA (herramienta, para qué la usaste y qué partes son resultado directo de ella) o indica que no la utilizaste. Tu entrega puede ser seleccionada para una defensa oral.
+9. Guarda tu libreta como 1A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre (1A_Nombre_Apellido.pdf) y entrega ambos archivos en el espacio de la actividad.
 :::
 
 | Criterio | Puntos |
@@ -56,7 +104,8 @@ Aplicar y comparar técnicas de preprocesamiento, justificando la elección con 
 5. Operaciones morfológicas: binariza la imagen (por ejemplo, con Otsu) y aplica erosión, dilatación y al menos una combinación (apertura o cierre); describe su efecto sobre los objetos y el ruido.
 6. Transformaciones geométricas: aplica una rotación y un cambio de tamaño y comenta en qué problemas sería importante alinear la imagen o normalizar su tamaño antes de extraer características.
 7. Estructura tu libreta con secciones y explica en Markdown qué operación aplicas, con qué parámetros y qué observas; justifica tus decisiones de preprocesamiento con las métricas obtenidas.
-8. Guarda tu libreta como 2A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+8. Al final de la libreta, completa la declaración de uso de IA (herramienta, para qué la usaste y qué partes son resultado directo de ella) o indica que no la utilizaste. Tu entrega puede ser seleccionada para una defensa oral.
+9. Guarda tu libreta como 2A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
 :::
 
 | Criterio | Puntos |
@@ -83,7 +132,8 @@ Implementar y comparar métodos de segmentación por bordes, umbralización y ag
 4. Agrupamiento: reordena los píxeles como vector de intensidades, aplica k-means con K = 2 o K = 3 y reconstruye la imagen segmentada a partir de las etiquetas.
 5. Evaluación cuantitativa: compara las máscaras obtenidas contra la máscara de referencia (la del repositorio o una que dibujes en GIMP) con IoU y Dice, y presenta una tabla comparativa.
 6. Análisis comparativo: coloca en una misma figura las salidas de bordes, umbralización y k-means y comenta qué método separa mejor los objetos, qué errores aparecen (bordes falsos, regiones fragmentadas, pérdida de detalle) y qué ajustes harías en una siguiente iteración.
-7. Guarda tu libreta como 3A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+7. Al final de la libreta, completa la declaración de uso de IA (herramienta, para qué la usaste y qué partes son resultado directo de ella) o indica que no la utilizaste. Tu entrega puede ser seleccionada para una defensa oral.
+8. Guarda tu libreta como 3A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
 :::
 
 | Criterio | Puntos |
@@ -111,7 +161,8 @@ Construir descriptores de textura, forma y color, combinarlos en un vector de ca
 5. Vector de características: combina textura, color y forma en un vector por imagen, construye la matriz de diseño (tabla de pandas) y estandariza las columnas.
 6. Reducción de dimensión: aplica PCA a 2 componentes, reporta la varianza explicada y grafica PC1 vs. PC2 con un color por clase. Opcional: compara con t-SNE.
 7. Interpretación: discute si se observa separación entre clases, qué clases se confunden y qué descriptor agregarías o quitarías.
-8. Guarda tu libreta como 4A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+8. Al final de la libreta, completa la declaración de uso de IA (herramienta, para qué la usaste y qué partes son resultado directo de ella) o indica que no la utilizaste. Tu entrega puede ser seleccionada para una defensa oral.
+9. Guarda tu libreta como 4A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
 :::
 
 | Criterio | Puntos |
@@ -139,7 +190,8 @@ Diseñar, implementar y evaluar un flujo completo de procesamiento de imágenes 
 5. Modelo supervisado: separa entrenamiento y prueba de forma estratificada (por ejemplo, 70 %–30 %, con semilla fija); construye un Pipeline (estandarización + clasificador) y compara al menos dos modelos (k-NN, SVM, árbol o Random Forest) con validación cruzada. Si varias imágenes provienen de la misma fuente, usa partición por grupos para evitar fuga de datos. Alternativa no supervisada: aplica k-means y analiza la relación de los grupos con tus etiquetas.
 6. Evaluación: reporta matriz de confusión, exactitud y F1 (macro y por clase) en el conjunto de prueba, y muestra ejemplos de imágenes mal clasificadas. Opcional: compara tus descriptores con embeddings de una red preentrenada (ResNet-18), como se muestra en la sesión síncrona.
 7. Análisis y discusión: ¿qué tan bien funcionó el flujo?, ¿cuáles fueron las principales fuentes de error?, ¿qué cambiarías en una versión mejorada (más datos, otros descriptores, otro modelo)?
-8. Organiza tu libreta en secciones (Problema y datos, Preprocesamiento, Segmentación, Características, Modelo y resultados, Discusión) de modo que alguien que no tomó el curso entienda qué hiciste y por qué. Guárdala como 5A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+8. Al final de la libreta, completa la declaración de uso de IA (herramienta, para qué la usaste y qué partes son resultado directo de ella) o indica que no la utilizaste. Tu entrega puede ser seleccionada para una defensa oral.
+9. Organiza tu libreta en secciones (Problema y datos, Preprocesamiento, Segmentación, Características, Modelo y resultados, Discusión) de modo que alguien que no tomó el curso entienda qué hiciste y por qué. Guárdala como 5A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
 :::
 
 | Criterio | Puntos |

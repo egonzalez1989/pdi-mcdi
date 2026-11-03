@@ -23,16 +23,21 @@ Más que buscar el «mejor modelo posible», se busca que seas capaz de justific
 ### Sesión 5. Reconocimiento: del clasificador clásico a la transferencia de aprendizaje
 Entrenar y evaluar clasificadores sobre descriptores sin fuga de datos y compararlos con una red preentrenada.
 
-- Videoconferencias: VC8 (miércoles 14 de abril)
+- Clase síncrona: jueves 15 de abril, de 18:00 a 20:00 hrs.
 - Cuaderno: [S5_Reconocimiento_clasico_y_profundo.ipynb](../sesiones/S5_Reconocimiento_clasico_y_profundo.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S5_Reconocimiento_clasico_y_profundo.ipynb)
 - Presentación: [S5_Reconocimiento_clasico_y_profundo.pptx](../presentaciones/S5_Reconocimiento_clasico_y_profundo.pptx)
 
 ### Sesión 6. Flujo completo de procesamiento y reconocimiento
 Estructurar la actividad 5A como un flujo reproducible, evaluado y bien documentado.
 
-- Videoconferencias: VC9 (miércoles 5 de mayo)
+- Clase síncrona: jueves 6 de mayo, de 18:00 a 20:00 hrs.
 - Cuaderno: [S6_Flujo_completo_reconocimiento.ipynb](../sesiones/S6_Flujo_completo_reconocimiento.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S6_Flujo_completo_reconocimiento.ipynb)
 - Presentación: [S6_Flujo_completo_reconocimiento.pptx](../presentaciones/S6_Flujo_completo_reconocimiento.pptx)
+
+### Sesiones opcionales de seguimiento y evaluación
+- Seguimiento (opcional): avance de la actividad 5A · jueves 29 de abril, de 18:00 a 19:00 hrs.
+- Seguimiento (opcional): dudas de la actividad 5A · jueves 13 de mayo, de 18:00 a 19:00 hrs.
+- Evaluación (opcional): retroalimentación de 5A y defensas orales · jueves 20 de mayo, de 18:00 a 19:00 hrs.
 
 ## Actividad
 - **5A. Flujo completo de procesamiento y reconocimiento** (30 puntos, domingo 16 de mayo). [Instrucciones y criterios](../actividades.qmd#act-5a) · [Plantilla](../plantillas/5A_Plantilla_Flujo_completo.ipynb) · [Lista de cotejo](../listas_cotejo/LC_5A_lista_cotejo.pdf)

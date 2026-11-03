@@ -75,9 +75,10 @@ Aplicar los conceptos básicos teórico-prácticos relacionados con el procesami
 - Aprendizaje basado en proyectos: la actividad 5A integra el flujo completo (preprocesamiento → segmentación → descriptores → modelo) con un conjunto de imágenes elegido por el estudiante.
 - Cuadernos guiados: por cada unidad hay un cuaderno de sesión con ejemplos paso a paso y un cuaderno plantilla alineado con la lista de cotejo, ejecutables en Google Colab.
 - Evaluación formativa con listas de cotejo publicadas desde el inicio y retroalimentación escrita en cada entrega.
+- Integridad académica: el uso de IA se declara en cada entrega y la calificación puede confirmarse con una defensa oral individual (selección pseudoaleatoria).
 
 ## Evaluación
-La evaluación es formativa y sumativa. Cada actividad tiene una lista de cotejo publicada desde el inicio del curso. Consulta el detalle en [Actividades](actividades.qmd).
+La evaluación es formativa y sumativa. Cada actividad tiene una lista de cotejo publicada desde el inicio del curso. El uso de IA se declara en cada entrega y la calificación puede confirmarse con una defensa oral ([lineamientos](actividades.qmd#uso-ia)). Consulta el detalle en [Actividades](actividades.qmd).
 
 | Actividad | Puntos |
 |---|---|
