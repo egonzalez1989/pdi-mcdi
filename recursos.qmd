@@ -43,6 +43,7 @@ jupyter lab
 - Quarto (para documentar prácticas): <https://quarto.org/docs/guide/>
 
 ## Buenas prácticas
+- Sigue el [Estándar de codificación en Python](documentos/Estandar_de_Codificacion_Python.pdf) (basado en PEP 8) y los lineamientos de [uso adecuado de la IA](documentos/Uso_Adecuado_de_IA.pdf).
 - Versiona tus cuadernos en Git por actividad.
 - Fija semillas aleatorias y registra los parámetros que usas.
 - Compara métodos con métricas (PSNR/SSIM, IoU/Dice, F1) y evidencia visual.

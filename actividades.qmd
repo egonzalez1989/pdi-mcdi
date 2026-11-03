@@ -56,7 +56,7 @@ Las cinco actividades son **individuales** y se resuelven en una libreta Jupyter
 | No responder ninguna pregunta de la defensa | La entrega completa puede anularse (0 puntos). |
 | No presentarse a la defensa sin causa justificada | La calificación de la entrega no se confirma (0 puntos). |
 
-Lee el documento [Uso adecuado de la IA en el ámbito académico (PDF)](documentos/Uso_Adecuado_de_IA.pdf).
+Documentos de lectura obligatoria: [Uso adecuado de la IA en el ámbito académico (PDF)](documentos/Uso_Adecuado_de_IA.pdf) y [Estándar de codificación en Python (PDF)](documentos/Estandar_de_Codificacion_Python.pdf), cuyo cumplimiento forma parte del criterio de claridad del código.
 
 ## 1A. Introducción y manipulación básica de imágenes con OpenCV {#act-1a}
 
