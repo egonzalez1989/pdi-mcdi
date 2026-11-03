@@ -9,11 +9,9 @@ title: "Recursos"
 - Cámara, micrófono y audífonos para las videoconferencias.
 - Cuenta de GitHub (recomendada) para descargar el material del curso y versionar tus cuadernos.
 
-Instalación local sugerida:
+Instalación local sugerida (con el archivo [`requirements.txt`](https://github.com/egonzalez1989/pdi-mcdi/blob/main/requirements.txt)):
 
 ```bash
-git clone https://github.com/egonzalez1989/pdi-mcdi.git
-cd pdi-mcdi
 python -m venv .venv && source .venv/bin/activate   # en Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab

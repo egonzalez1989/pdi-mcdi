@@ -14,7 +14,7 @@ Bienvenida, bienvenido al sitio del curso **Procesamiento digital de imágenes**
 4. Resuelve la actividad con su **plantilla** y revisa su **lista de cotejo** antes de entregar en el aula virtual.
 5. Declara el uso de IA al final de cada libreta y prepárate para una posible [defensa oral](actividades.qmd#uso-ia).
 
-**Clases:** jueves de 11:00 a 13:00 hrs. a partir del 14 de enero · **Seguimiento y evaluación (opcionales):** jueves de 12:00 a 13:00 hrs.
+**Clases:** jueves de 11:00 a 13:00 hrs. a partir del 21 de enero · **Seguimiento y evaluación (opcionales):** jueves de 12:00 a 13:00 hrs.
 :::
 
 ## Descripción breve
@@ -24,11 +24,11 @@ Procesamiento digital de imágenes es una asignatura que aborda las técnicas b�
 
 | Unidad | Tema | Periodo | Actividad |
 |---|---|---|---|
-| [Unidad 1](unidades/unidad1.qmd) | Introducción al procesamiento digital de imágenes | Semanas 1 y 2 (11 al 24 de enero) | 1A |
-| [Unidad 2](unidades/unidad2.qmd) | Preprocesamiento | Semanas 3 a 5 (25 de enero al 14 de febrero) | 2A |
-| [Unidad 3](unidades/unidad3.qmd) | Segmentación | Semanas 6 a 8 (15 de febrero al 7 de marzo) | 3A |
-| [Unidad 4](unidades/unidad4.qmd) | Descripción y representación de imágenes digitales | Semanas 9 a 12 (8 de marzo al 4 de abril) | 4A |
-| [Unidad 5](unidades/unidad5.qmd) | Reconocimiento de imágenes | Semanas 13 a 19 (5 de abril al 21 de mayo) | 5A |
+| [Unidad 1](unidades/unidad1.qmd) | Introducción al procesamiento digital de imágenes | Semanas 1 a 3 (11 al 31 de enero) | 1A |
+| [Unidad 2](unidades/unidad2.qmd) | Preprocesamiento | Semanas 4 a 6 (1 al 21 de febrero) | 2A |
+| [Unidad 3](unidades/unidad3.qmd) | Segmentación | Semanas 7 a 9 (22 de febrero al 14 de marzo) | 3A |
+| [Unidad 4](unidades/unidad4.qmd) | Descripción y representación de imágenes digitales | Semanas 10 a 13 (15 de marzo al 11 de abril; sin actividades en Semana Santa, 22 al 28 de marzo) | 4A |
+| [Unidad 5](unidades/unidad5.qmd) | Reconocimiento de imágenes | Semanas 14 a 17 (12 de abril al 9 de mayo; la semana 17 es de evaluación final) | 5A |
 
 El hilo conductor del curso es el flujo **imagen → preprocesamiento → segmentación → descriptores → modelo**, que la actividad 5A integra de principio a fin.
 

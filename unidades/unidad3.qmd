@@ -1,6 +1,6 @@
 ---
 title: "Unidad 3. Segmentación"
-subtitle: "Semanas 6 a 8 (15 de febrero al 7 de marzo)"
+subtitle: "Semanas 7 a 9 (22 de febrero al 14 de marzo)"
 ---
 
 ## Fin de aprendizaje
@@ -21,16 +21,16 @@ Trabajarás con enfoques clásicos: segmentación basada en discontinuidades (So
 ### Sesión 3. Separar objetos del fondo y medir qué tan bien lo hacemos
 Comparar métodos de segmentación clásicos y evaluarlos con IoU y Dice.
 
-- Clase síncrona: jueves 18 de febrero, de 11:00 a 13:00 hrs.
+- Clase síncrona: jueves 25 de febrero, de 11:00 a 13:00 hrs.
 - Cuaderno: [S3_Segmentacion.ipynb](../sesiones/S3_Segmentacion.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S3_Segmentacion.ipynb)
 - Presentación: [S3_Segmentacion.pptx](../presentaciones/S3_Segmentacion.pptx)
 
 ### Sesiones opcionales de seguimiento y evaluación
-- Seguimiento (opcional): dudas de la actividad 3A · jueves 4 de marzo, de 12:00 a 13:00 hrs.
-- Evaluación (opcional): retroalimentación de 3A y defensas orales · jueves 18 de marzo, de 12:00 a 13:00 hrs.
+- Seguimiento (opcional): dudas de la actividad 3A · jueves 11 de marzo, de 12:00 a 13:00 hrs.
+- Evaluación (opcional): retroalimentación de 3A; evaluación oral en esta semana a quienes sean seleccionados · jueves 1 de abril, de 12:00 a 13:00 hrs.
 
 ## Actividad
-- **3A. Segmentación de imágenes con OpenCV** (20 puntos, domingo 7 de marzo). [Instrucciones y criterios](../actividades.qmd#act-3a) · [Plantilla](../plantillas/3A_Plantilla_Segmentacion.ipynb) · [Lista de cotejo](../listas_cotejo/LC_3A_lista_cotejo.pdf)
+- **3A. Segmentación de imágenes con OpenCV** (20 puntos, domingo 14 de marzo). [Instrucciones y criterios](../actividades.qmd#act-3a) · [Plantilla](../plantillas/3A_Plantilla_Segmentacion.ipynb) · [Lista de cotejo](../listas_cotejo/LC_3A_lista_cotejo.pdf)
 
 ## Aprende
 1. Najman, L. (s.f.). Segmentation – basics. [Documento en PDF]. <https://www.laurentnajman.org/uploads/ImageCourse/segmentation1_ln.pdf>

@@ -1,6 +1,6 @@
 ---
 title: "Unidad 4. Descripción y representación de imágenes digitales"
-subtitle: "Semanas 9 a 12 (8 de marzo al 4 de abril)"
+subtitle: "Semanas 10 a 13 (15 de marzo al 11 de abril; sin actividades en Semana Santa, 22 al 28 de marzo)"
 ---
 
 ## Fin de aprendizaje
@@ -24,16 +24,16 @@ Revisarás descriptores clásicos basados en la matriz de co-ocurrencia de nivel
 ### Sesión 4. De la imagen al vector: descriptores y PCA
 Construir una matriz de diseño con descriptores de forma, textura y color y explorarla con PCA.
 
-- Clase síncrona: jueves 11 de marzo, de 11:00 a 13:00 hrs.
+- Clase síncrona: jueves 18 de marzo, de 11:00 a 13:00 hrs.
 - Cuaderno: [S4_Descriptores_y_representacion.ipynb](../sesiones/S4_Descriptores_y_representacion.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S4_Descriptores_y_representacion.ipynb)
 - Presentación: [S4_Descriptores_y_representacion.pptx](../presentaciones/S4_Descriptores_y_representacion.pptx)
 
 ### Sesiones opcionales de seguimiento y evaluación
-- Seguimiento (opcional): dudas de la actividad 4A · jueves 1 de abril, de 12:00 a 13:00 hrs.
-- Evaluación (opcional): retroalimentación de 4A y defensas orales · jueves 8 de abril, de 12:00 a 13:00 hrs.
+- Seguimiento (opcional): dudas de la actividad 4A · jueves 8 de abril, de 12:00 a 13:00 hrs.
+- Evaluación (opcional): retroalimentación de 4A; evaluación oral en esta semana a quienes sean seleccionados · jueves 22 de abril, de 12:00 a 13:00 hrs.
 
 ## Actividad
-- **4A. Descriptores de textura, forma y color con reducción de dimensión** (25 puntos, domingo 4 de abril). [Instrucciones y criterios](../actividades.qmd#act-4a) · [Plantilla](../plantillas/4A_Plantilla_Descriptores.ipynb) · [Lista de cotejo](../listas_cotejo/LC_4A_lista_cotejo.pdf)
+- **4A. Descriptores de textura, forma y color con reducción de dimensión** (25 puntos, domingo 11 de abril). [Instrucciones y criterios](../actividades.qmd#act-4a) · [Plantilla](../plantillas/4A_Plantilla_Descriptores.ipynb) · [Lista de cotejo](../listas_cotejo/LC_4A_lista_cotejo.pdf)
 
 ## Aprende
 1. Hall-Beyer, M. (2017). GLCM texture: A tutorial (v. 3.0). [Documento en PDF]. University of Calgary. <https://prism.ucalgary.ca/handle/1880/51900>

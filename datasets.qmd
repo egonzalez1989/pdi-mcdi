@@ -2,7 +2,7 @@
 title: "Datos de práctica"
 ---
 
-La carpeta [`datos/`](https://github.com/egonzalez1989/pdi-mcdi/tree/main/datos) contiene imágenes de uso libre organizadas por tema. Las plantillas de las actividades las encuentran automáticamente si clonas el repositorio; en Colab las descargan solas.
+La carpeta [`datos/`](https://github.com/egonzalez1989/pdi-mcdi/tree/main/datos) contiene imágenes de uso libre organizadas por tema. Las plantillas de las actividades descargan automáticamente los datos que necesitan.
 
 | Carpeta | Contenido | Uso sugerido |
 |---|---|---|

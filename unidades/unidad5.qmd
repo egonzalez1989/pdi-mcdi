@@ -1,6 +1,6 @@
 ---
 title: "Unidad 5. Reconocimiento de imágenes"
-subtitle: "Semanas 13 a 19 (5 de abril al 21 de mayo)"
+subtitle: "Semanas 14 a 17 (12 de abril al 9 de mayo; la semana 17 es de evaluación final)"
 ---
 
 ## Fin de aprendizaje
@@ -30,17 +30,15 @@ Entrenar y evaluar clasificadores sobre descriptores sin fuga de datos y compara
 ### Sesión 6. Flujo completo de procesamiento y reconocimiento
 Estructurar la actividad 5A como un flujo reproducible, evaluado y bien documentado.
 
-- Clase síncrona: jueves 6 de mayo, de 11:00 a 13:00 hrs.
+- Clase síncrona: jueves 29 de abril, de 11:00 a 13:00 hrs.
 - Cuaderno: [S6_Flujo_completo_reconocimiento.ipynb](../sesiones/S6_Flujo_completo_reconocimiento.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S6_Flujo_completo_reconocimiento.ipynb)
 - Presentación: [S6_Flujo_completo_reconocimiento.pptx](../presentaciones/S6_Flujo_completo_reconocimiento.pptx)
 
 ### Sesiones opcionales de seguimiento y evaluación
-- Seguimiento (opcional): avance de la actividad 5A · jueves 29 de abril, de 12:00 a 13:00 hrs.
-- Seguimiento (opcional): dudas de la actividad 5A · jueves 13 de mayo, de 12:00 a 13:00 hrs.
-- Evaluación (opcional): retroalimentación de 5A y defensas orales · jueves 20 de mayo, de 12:00 a 13:00 hrs.
+- Evaluación (opcional): retroalimentación de 5A; evaluación oral en esta semana a quienes sean seleccionados · jueves 6 de mayo, de 12:00 a 13:00 hrs.
 
 ## Actividad
-- **5A. Flujo completo de procesamiento y reconocimiento** (30 puntos, domingo 16 de mayo). [Instrucciones y criterios](../actividades.qmd#act-5a) · [Plantilla](../plantillas/5A_Plantilla_Flujo_completo.ipynb) · [Lista de cotejo](../listas_cotejo/LC_5A_lista_cotejo.pdf)
+- **5A. Flujo completo de procesamiento y reconocimiento** (30 puntos, domingo 2 de mayo). [Instrucciones y criterios](../actividades.qmd#act-5a) · [Plantilla](../plantillas/5A_Plantilla_Flujo_completo.ipynb) · [Lista de cotejo](../listas_cotejo/LC_5A_lista_cotejo.pdf)
 
 ## Aprende
 1. Szeliski, R. (2022). Computer vision: Algorithms and applications (2nd ed., caps. 5: Deep learning y 6: Recognition). Springer. <https://szeliski.org/Book/>

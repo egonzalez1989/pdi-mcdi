@@ -1,6 +1,6 @@
 ---
 title: "Unidad 2. Preprocesamiento"
-subtitle: "Semanas 3 a 5 (25 de enero al 14 de febrero)"
+subtitle: "Semanas 4 a 6 (1 al 21 de febrero)"
 ---
 
 ## Fin de aprendizaje
@@ -27,11 +27,11 @@ Comparar técnicas de preprocesamiento y justificar la elección con PSNR y SSIM
 - Presentación: [S2_Mejora_y_preprocesamiento.pptx](../presentaciones/S2_Mejora_y_preprocesamiento.pptx)
 
 ### Sesiones opcionales de seguimiento y evaluación
-- Seguimiento (opcional): dudas de la actividad 2A · jueves 11 de febrero, de 12:00 a 13:00 hrs.
-- Evaluación (opcional): retroalimentación de 2A y defensas orales · jueves 25 de febrero, de 12:00 a 13:00 hrs.
+- Seguimiento (opcional): dudas de la actividad 2A · jueves 18 de febrero, de 12:00 a 13:00 hrs.
+- Evaluación (opcional): retroalimentación de 2A; evaluación oral en esta semana a quienes sean seleccionados · jueves 4 de marzo, de 12:00 a 13:00 hrs.
 
 ## Actividad
-- **2A. Preprocesamiento de imágenes con OpenCV** (15 puntos, domingo 14 de febrero). [Instrucciones y criterios](../actividades.qmd#act-2a) · [Plantilla](../plantillas/2A_Plantilla_Preprocesamiento.ipynb) · [Lista de cotejo](../listas_cotejo/LC_2A_lista_cotejo.pdf)
+- **2A. Preprocesamiento de imágenes con OpenCV** (15 puntos, domingo 21 de febrero). [Instrucciones y criterios](../actividades.qmd#act-2a) · [Plantilla](../plantillas/2A_Plantilla_Preprocesamiento.ipynb) · [Lista de cotejo](../listas_cotejo/LC_2A_lista_cotejo.pdf)
 
 ## Aprende
 1. OpenCV. (s.f.). Arithmetic operations on images. [Página web]. <https://docs.opencv.org/4.x/d0/d86/tutorial_py_image_arithmetics.html>

@@ -1,6 +1,6 @@
 ---
 title: "Unidad 1. Introducción al procesamiento digital de imágenes"
-subtitle: "Semanas 1 y 2 (11 al 24 de enero)"
+subtitle: "Semanas 1 a 3 (11 al 31 de enero)"
 ---
 
 ## Fin de aprendizaje
@@ -21,16 +21,16 @@ Además, configurarás un entorno reproducible (Jupyter o Google Colab y, opcion
 ### Sesión 1. La imagen como arreglo numérico
 Manipular imágenes como arreglos NumPy y evitar los errores clásicos de color, tipo de dato y compresión.
 
-- Clase síncrona: jueves 14 de enero, de 11:00 a 13:00 hrs.
+- Clase síncrona: jueves 21 de enero, de 11:00 a 13:00 hrs.
 - Cuaderno: [S1_Imagen_digital_como_dato.ipynb](../sesiones/S1_Imagen_digital_como_dato.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S1_Imagen_digital_como_dato.ipynb)
 - Presentación: [S1_Imagen_digital_como_dato.pptx](../presentaciones/S1_Imagen_digital_como_dato.pptx)
 
 ### Sesiones opcionales de seguimiento y evaluación
-- Seguimiento (opcional): dudas de la actividad 1A · jueves 21 de enero, de 12:00 a 13:00 hrs.
-- Evaluación (opcional): retroalimentación de 1A y defensas orales · jueves 28 de enero, de 12:00 a 13:00 hrs.
+- Seguimiento (opcional): dudas de la actividad 1A · jueves 28 de enero, de 12:00 a 13:00 hrs.
+- Evaluación (opcional): retroalimentación de 1A; evaluación oral en esta semana a quienes sean seleccionados · jueves 11 de febrero, de 12:00 a 13:00 hrs.
 
 ## Actividad
-- **1A. Introducción y manipulación básica de imágenes con OpenCV** (10 puntos, domingo 24 de enero). [Instrucciones y criterios](../actividades.qmd#act-1a) · [Plantilla](../plantillas/1A_Plantilla_Manipulacion_basica.ipynb) · [Lista de cotejo](../listas_cotejo/LC_1A_lista_cotejo.pdf)
+- **1A. Introducción y manipulación básica de imágenes con OpenCV** (10 puntos, domingo 31 de enero). [Instrucciones y criterios](../actividades.qmd#act-1a) · [Plantilla](../plantillas/1A_Plantilla_Manipulacion_basica.ipynb) · [Lista de cotejo](../listas_cotejo/LC_1A_lista_cotejo.pdf)
 
 ## Aprende
 1. Imagina Formación. (2024). Procesamiento de imágenes con OpenCV en Python. [Página web]. <https://imaginaformacion.com/tutoriales/opencv-en-python>
