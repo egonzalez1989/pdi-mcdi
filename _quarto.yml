@@ -1,0 +1,100 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "unidades/*.qmd"
+    - "sesiones/*.ipynb"
+    - "plantillas/*.ipynb"
+  resources:
+    - "datos/**"
+    - "presentaciones/*.pptx"
+    - "listas_cotejo/*.pdf"
+    - "documentos/*.pdf"
+    - "sesiones/*.ipynb"
+    - "plantillas/*.ipynb"
+
+execute:
+  enabled: false   # los cuadernos se publican con las salidas ya ejecutadas
+
+lang: es
+
+website:
+  title: "Procesamiento Digital de Imágenes"
+  description: "Material del curso Procesamiento Digital de Imágenes (MCDI00010) · Maestría en Ciencia de Datos e Información · INFOTEC · 2027-1"
+  site-url: https://egonzalez1989.github.io/pdi-mcdi/
+  repo-url: https://github.com/egonzalez1989/pdi-mcdi
+  repo-actions: [source, issue]
+  page-navigation: true
+  search: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: programa.qmd
+        text: Programa
+      - href: calendario.qmd
+        text: Calendario
+      - href: actividades.qmd
+        text: Actividades
+      - text: Unidades
+        menu:
+          - text: "Unidad 1. Introducción al procesamiento digital de imágenes"
+            href: unidades/unidad1.qmd
+          - text: "Unidad 2. Preprocesamiento"
+            href: unidades/unidad2.qmd
+          - text: "Unidad 3. Segmentación"
+            href: unidades/unidad3.qmd
+          - text: "Unidad 4. Descripción y representación de imágenes digitales"
+            href: unidades/unidad4.qmd
+          - text: "Unidad 5. Reconocimiento de imágenes"
+            href: unidades/unidad5.qmd
+      - href: recursos.qmd
+        text: Recursos
+      - href: datasets.qmd
+        text: Datos
+    right:
+      - icon: github
+        href: https://github.com/egonzalez1989/pdi-mcdi
+  sidebar:
+    - title: Unidades
+      style: docked
+      contents:
+        - section: "Unidades"
+          contents:
+            - unidades/unidad1.qmd
+            - unidades/unidad2.qmd
+            - unidades/unidad3.qmd
+            - unidades/unidad4.qmd
+            - unidades/unidad5.qmd
+        - section: "Cuadernos de sesión"
+          contents:
+            - sesiones/S1_Imagen_digital_como_dato.ipynb
+            - sesiones/S2_Mejora_y_preprocesamiento.ipynb
+            - sesiones/S3_Segmentacion.ipynb
+            - sesiones/S4_Descriptores_y_representacion.ipynb
+            - sesiones/S5_Reconocimiento_clasico_y_profundo.ipynb
+            - sesiones/S6_Flujo_completo_reconocimiento.ipynb
+        - section: "Plantillas de actividades"
+          contents:
+            - plantillas/1A_Plantilla_Manipulacion_basica.ipynb
+            - plantillas/2A_Plantilla_Preprocesamiento.ipynb
+            - plantillas/3A_Plantilla_Segmentacion.ipynb
+            - plantillas/4A_Plantilla_Descriptores.ipynb
+            - plantillas/5A_Plantilla_Flujo_completo.ipynb
+  page-footer:
+    left: "Dr. Edgar González Fernández · INFOTEC · 2027-1"
+    right: "Contenido bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-title: "En esta página"
+    number-sections: false
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true

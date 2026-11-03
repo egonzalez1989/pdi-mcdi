@@ -1,0 +1,89 @@
+---
+title: "Programa"
+---
+
+| | |
+|---|---|
+| **Asignatura** | Procesamiento digital de imágenes |
+| **Clave** | MCDI00010 |
+| **Programa** | Maestría en Ciencia de Datos e Información (MCDI) |
+| **Ciclo** | 3 (ciclo escolar 2027-1) · Semestral |
+| **Modalidad** | A distancia (en línea), con sesiones síncronas por videoconferencia |
+| **Periodo** | 11 de enero de 2027 al 21 de mayo de 2027 |
+
+Descarga el [programa completo (PDF)](documentos/Programa_PDI_MCDI_2027-1.pdf).
+
+## Presentación
+
+**¿De qué trata la asignatura?** Procesamiento digital de imágenes es una asignatura que aborda las técnicas básicas para procesar, analizar y transformar imágenes digitales. A lo largo del curso aprenderás a mejorar la calidad de una imagen, segmentar objetos, extraer características como la textura, la forma y el color, y usar estos datos en algoritmos de aprendizaje automático. El enfoque de estudio es práctico: trabajarás con imágenes reales en cuadernos Jupyter con Python y OpenCV.
+
+**¿Por qué es importante para tu formación?** Hoy día muchas aplicaciones de ciencia de datos incluyen imágenes, desde fotografías y video hasta imágenes médicas o satelitales. Obtendrás las bases para convertir imágenes en datos útiles para el análisis y fortalecerás tus habilidades en programación, estadística y modelado para resolver problemas concretos de visión artificial, evaluando cada resultado con métricas objetivas.
+
+**¿Cómo aplicarás los conocimientos en el campo laboral?** Estarás facultado para participar en proyectos en los que se requiera clasificar imágenes, detectar objetos, segmentar regiones o evaluar la calidad de imágenes, por ejemplo, en salud, industria, agro, seguridad y marketing. Estos conocimientos te permitirán desarrollar soluciones de visión por computador reproducibles y colaborar con equipos multidisciplinarios de análisis de datos e inteligencia artificial.
+
+## Fin de formación de la asignatura
+Aplicar los conceptos básicos teórico-prácticos relacionados con el procesamiento digital de imágenes, para extraer, estructurar y analizar información contenida en imágenes, y utilizarla en algoritmos de aprendizaje automático y tareas de visión artificial, evaluando los resultados con métricas pertinentes, bajo un enfoque analítico y reproducible.
+
+## Fin de formación por unidades
+- **Unidad 1. Introducción al procesamiento digital de imágenes.** Comprender el papel del procesamiento digital de imágenes en la ciencia de datos e implementar operaciones básicas de lectura, visualización, manipulación geométrica y almacenamiento de imágenes digitales usando OpenCV en un entorno reproducible, identificando su representación como arreglos numéricos (resolución, tipo de dato y canales de color).
+- **Unidad 2. Preprocesamiento.** Aplicar técnicas de preprocesamiento de imágenes (transformaciones de intensidad, filtrado espacial y frecuencial, operaciones morfológicas y transformaciones geométricas) y evaluar su impacto en la calidad de la imagen mediante criterios visuales y métricas cuantitativas (MSE, PSNR y SSIM), comparando alternativas y argumentando la selección de los esquemas de preprocesamiento más adecuados, como base para etapas posteriores de segmentación y reconocimiento.
+- **Unidad 3. Segmentación.** Implementar y comparar distintos métodos de segmentación de imágenes (detección de bordes, umbralización y agrupamiento por intensidades/regiones) para separar objetos del fondo, analizando sus ventajas y limitaciones según el tipo de imagen y el problema de interés, comparando alternativas con métricas de coincidencia (IoU y Dice) y argumentando la pertinencia de cada método en función de las características de la imagen y del problema planteado.
+- **Unidad 4. Descripción y representación de imágenes digitales.** Construir y analizar descriptores de textura, forma y color para representar imágenes de manera compacta y significativa, y aplicar una técnica básica de reducción de dimensión (por ejemplo, PCA) sobre características estandarizadas para visualizar y explorar la separación entre clases o tipos de imágenes.
+- **Unidad 5. Reconocimiento de imágenes.** Diseñar e implementar un flujo completo de procesamiento digital de imágenes, que incluya preprocesamiento, segmentación, extracción de descriptores y aplicación de un modelo de aprendizaje automático (supervisado o no supervisado), evaluando su desempeño con validación adecuada y métricas pertinentes, y discutiendo sus alcances y limitaciones.
+
+## Contenido
+
+### Unidad 1. Introducción al procesamiento digital de imágenes
+
+- **1.1. Visión natural** — formación de la imagen en el ojo humano y percepción del color.
+- **1.2. Visión artificial** — del sensor a la imagen digital; aplicaciones y consideraciones éticas (privacidad y sesgo).
+- **1.3. Conceptos básicos sobre el procesamiento digital de imágenes** — muestreo y cuantización, la imagen como arreglo (dimensiones, canales, tipo de dato), espacios de color (RGB/BGR, gris, HSV), formatos y compresión, entorno reproducible.
+
+### Unidad 2. Preprocesamiento
+
+- **2.1. Mejoramiento de la imagen** — transformaciones de intensidad, histograma, ecualización y CLAHE; métricas de calidad MSE, PSNR y SSIM.
+- **2.2. Procesamiento espacial y frecuencial** — convolución; filtros promedio, gaussiano, mediana y de realce; transformada de Fourier y filtros pasa-bajas/pasa-altas.
+- **2.3. Operaciones morfológicas** — erosión, dilatación, apertura, cierre y top-hat sobre imágenes binarizadas.
+- **2.4. Transformaciones geométricas** — rotación, escalamiento, recorte, transformaciones afines y su uso para aumento de datos.
+
+### Unidad 3. Segmentación
+
+- **3.1. Introducción sobre segmentación de imágenes** — objetivos y tipos de segmentación; evaluación contra una referencia (IoU y Dice); panorama de U-Net y Segment Anything.
+- **3.2. Segmentación por discontinuidades** — gradiente, Sobel, Canny y transformada de Hough.
+- **3.3. Segmentación por similaridad** — umbralización global, Otsu y adaptativa; componentes conexas y watershed; agrupamiento k-means.
+
+### Unidad 4. Descripción y representación de imágenes digitales
+
+- **4.1. Introducción sobre descripción y representación de imágenes digitales** — del píxel al vector de características; propiedades de un buen descriptor.
+- **4.2. Variables y descriptores** — descriptores de forma: área, perímetro, circularidad, excentricidad y momentos de Hu.
+- **4.3. Representación de imágenes** — matriz de diseño, estandarización y visualización con PCA.
+- **4.4. Texturas** — matriz de co-ocurrencia (GLCM, Haralick) y patrones binarios locales (LBP).
+- **4.5. Color** — histogramas y momentos de color en RGB y HSV.
+- **4.6. Extracción de características** — vector combinado de características; HOG y embeddings de redes preentrenadas como referencia.
+
+### Unidad 5. Reconocimiento de imágenes
+
+- **5.1. Aprendizaje automático** — formulación del problema, matriz de diseño y Pipeline de scikit-learn.
+- **5.2. Algoritmos supervisados aplicados a imágenes** — k-NN, SVM, árboles y Random Forest; introducción a redes convolucionales y transferencia de aprendizaje.
+- **5.3. Algoritmos no-supervisados aplicados a imágenes** — k-means sobre descriptores y comparación de grupos con etiquetas.
+- **5.4. Reducción de la dimensión** — PCA dentro del Pipeline y t-SNE para exploración.
+- **5.5. Evaluación del desempeño de los modelos** — particiones estratificadas y por grupo, validación cruzada, matriz de confusión, precisión, exhaustividad y F1; fuga de datos.
+
+## Metodología de trabajo
+- Aprendizaje basado en problemas: cada actividad parte de un problema de imágenes reales que se resuelve en un cuaderno Jupyter.
+- Método de casos: las sesiones síncronas se apoyan en casos aplicados (inspección de materiales, conteo de objetos, documentos, rostros) para discutir decisiones de diseño.
+- Aprendizaje basado en proyectos: la actividad 5A integra el flujo completo (preprocesamiento → segmentación → descriptores → modelo) con un conjunto de imágenes elegido por el estudiante.
+- Cuadernos guiados: por cada unidad hay un cuaderno de sesión con ejemplos paso a paso y un cuaderno plantilla alineado con la lista de cotejo, ejecutables en Google Colab.
+- Evaluación formativa con listas de cotejo publicadas desde el inicio y retroalimentación escrita en cada entrega.
+
+## Evaluación
+La evaluación es formativa y sumativa. Cada actividad tiene una lista de cotejo publicada desde el inicio del curso. Consulta el detalle en [Actividades](actividades.qmd).
+
+| Actividad | Puntos |
+|---|---|
+| 1A. Introducción y manipulación básica de imágenes con OpenCV | 10 |
+| 2A. Preprocesamiento de imágenes con OpenCV | 15 |
+| 3A. Segmentación de imágenes con OpenCV | 20 |
+| 4A. Descriptores de textura, forma y color con reducción de dimensión | 25 |
+| 5A. Flujo completo de procesamiento y reconocimiento | 30 |
+| **Total** | **100** |

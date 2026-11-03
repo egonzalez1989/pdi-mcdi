@@ -1,0 +1,49 @@
+---
+title: "Recursos"
+---
+
+## Software
+- Computadora con navegador actualizado (Chrome, Firefox o Edge), al menos 8 GB de RAM y conexión a internet de 10 Mbps o superior.
+- Cuenta de Google para usar Google Colab (entorno recomendado, sin instalación).
+- Opcional, entorno local: Python 3.10 o superior con numpy, matplotlib, pandas, opencv-python, scikit-image y scikit-learn (archivo requirements.txt en el repositorio del curso). Para el ejemplo opcional de transferencia de aprendizaje de la Unidad 5: torch y torchvision.
+- Cámara, micrófono y audífonos para las videoconferencias.
+- Cuenta de GitHub (recomendada) para descargar el material del curso y versionar tus cuadernos.
+
+Instalación local sugerida:
+
+```bash
+git clone https://github.com/egonzalez1989/pdi-mcdi.git
+cd pdi-mcdi
+python -m venv .venv && source .venv/bin/activate   # en Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+jupyter lab
+```
+
+## Material del curso en este repositorio
+
+| Carpeta | Contenido |
+|---|---|
+| `sesiones/` | 6 cuadernos Jupyter ejecutados, uno por sesión síncrona |
+| `presentaciones/` | 6 presentaciones (.pptx) de las sesiones |
+| `plantillas/` | Cuadernos plantilla de las actividades 1A a 5A |
+| `listas_cotejo/` | Listas de cotejo de cada actividad (PDF) |
+| `datos/` | Imágenes de práctica (ver [Datos](datasets.qmd)) |
+| `documentos/` | Programa y agenda del curso (PDF) |
+
+## Bibliografía sugerida
+- Gonzalez, R. C., & Woods, R. E. (2018). Digital image processing (4th ed.). Pearson.
+- Szeliski, R. (2022). Computer vision: Algorithms and applications (2nd ed.). Springer. <https://szeliski.org/Book/>
+- Burger, W., & Burge, M. J. (2022). Digital image processing: An algorithmic introduction (3rd ed.). Springer. <https://doi.org/10.1007/978-3-031-05744-1>
+- Nixon, M. S., & Aguado, A. S. (2019). Feature extraction and image processing for computer vision (4th ed.). Academic Press.
+
+## Documentación en línea
+- OpenCV-Python: <https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html>
+- scikit-image: <https://scikit-image.org/docs/stable/>
+- scikit-learn: <https://scikit-learn.org/stable/>
+- Quarto (para documentar prácticas): <https://quarto.org/docs/guide/>
+
+## Buenas prácticas
+- Versiona tus cuadernos en Git por actividad.
+- Fija semillas aleatorias y registra los parámetros que usas.
+- Compara métodos con métricas (PSNR/SSIM, IoU/Dice, F1) y evidencia visual.
+- Respeta las licencias y la privacidad de las imágenes que utilices.

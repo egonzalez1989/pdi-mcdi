@@ -1,0 +1,40 @@
+---
+title: "Procesamiento Digital de Imágenes"
+subtitle: "Maestría en Ciencia de Datos e Información (MCDI) · INFOTEC · Ciclo 2027-1"
+toc: false
+---
+
+Bienvenida, bienvenido al sitio del curso **Procesamiento digital de imágenes** (clave MCDI00010). Aquí encontrarás el programa, el calendario, las actividades, los cuadernos Jupyter de cada sesión síncrona, las presentaciones y los datos de práctica.
+
+::: {.callout-note}
+## Cómo usar este sitio
+1. Revisa el [programa](programa.qmd) y el [calendario](calendario.qmd).
+2. Antes de cada videoconferencia, revisa los recursos del apartado *Aprende* de la unidad.
+3. Abre el cuaderno de la sesión en Google Colab (botón **Abrir en Colab**) y ejecútalo paso a paso.
+4. Resuelve la actividad con su **plantilla** y revisa su **lista de cotejo** antes de entregar en el aula virtual.
+:::
+
+## Descripción breve
+Procesamiento digital de imágenes es una asignatura que aborda las técnicas básicas para procesar, analizar y transformar imágenes digitales. A lo largo del curso aprenderás a mejorar la calidad de una imagen, segmentar objetos, extraer características como la textura, la forma y el color, y usar estos datos en algoritmos de aprendizaje automático. El enfoque de estudio es práctico: trabajarás con imágenes reales en cuadernos Jupyter con Python y OpenCV.
+
+## Ruta de aprendizaje
+
+| Unidad | Tema | Periodo | Actividad |
+|---|---|---|---|
+| [Unidad 1](unidades/unidad1.qmd) | Introducción al procesamiento digital de imágenes | Semanas 1 y 2 (11 al 24 de enero) | 1A |
+| [Unidad 2](unidades/unidad2.qmd) | Preprocesamiento | Semanas 3 a 5 (25 de enero al 14 de febrero) | 2A |
+| [Unidad 3](unidades/unidad3.qmd) | Segmentación | Semanas 6 a 8 (15 de febrero al 7 de marzo) | 3A |
+| [Unidad 4](unidades/unidad4.qmd) | Descripción y representación de imágenes digitales | Semanas 9 a 12 (8 de marzo al 4 de abril) | 4A |
+| [Unidad 5](unidades/unidad5.qmd) | Reconocimiento de imágenes | Semanas 13 a 19 (5 de abril al 21 de mayo) | 5A |
+
+El hilo conductor del curso es el flujo **imagen → preprocesamiento → segmentación → descriptores → modelo**, que la actividad 5A integra de principio a fin.
+
+## Recomendaciones
+- Usa Google Colab (no requiere instalación) o un entorno local con Python 3.10+ y el archivo [`requirements.txt`](https://github.com/egonzalez1989/pdi-mcdi/blob/main/requirements.txt).
+- Clona el repositorio para tener los datos con la estructura de carpetas correcta: `git clone https://github.com/egonzalez1989/pdi-mcdi.git`
+- Documenta en Markdown cada decisión: qué técnica aplicas, con qué parámetros y qué observas.
+- Compara métodos con **métricas** y evidencia visual, no solo «a ojo».
+- Mantén un repositorio personal con tus cuadernos versionados.
+
+## Docente
+Dr. Edgar González Fernández · <edgar.gonzalezf@infotec.mx>

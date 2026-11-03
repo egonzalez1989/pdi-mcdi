@@ -1,0 +1,52 @@
+---
+title: "Unidad 5. Reconocimiento de imágenes"
+subtitle: "Semanas 13 a 19 (5 de abril al 21 de mayo)"
+---
+
+## Fin de aprendizaje
+Diseñar e implementar un flujo completo de procesamiento digital de imágenes, que incluya preprocesamiento, segmentación, extracción de descriptores y aplicación de un modelo de aprendizaje automático (supervisado o no supervisado), evaluando su desempeño con validación adecuada y métricas pertinentes, y discutiendo sus alcances y limitaciones.
+
+## Introducción
+En esta unidad integrarás lo aprendido a lo largo del curso en un pequeño proyecto aplicado. El objetivo es que, a partir de un conjunto de imágenes de tu interés, definas un problema sencillo de clasificación o agrupamiento y construyas un flujo de trabajo coherente: preprocesamiento, segmentación (si es necesaria), extracción de características y uso de un modelo de aprendizaje automático para analizar los datos.
+
+Más que buscar el «mejor modelo posible», se busca que seas capaz de justificar tus decisiones de diseño y de interpretar críticamente los resultados. Para ello aprenderás a organizar el flujo en un Pipeline de scikit-learn, a evaluar con validación cruzada y matriz de confusión sin fuga de datos, y conocerás cómo las redes convolucionales preentrenadas (transferencia de aprendizaje) se comparan con los descriptores clásicos.
+
+## Temas
+- **5.1. Aprendizaje automático** — formulación del problema, matriz de diseño y Pipeline de scikit-learn.
+- **5.2. Algoritmos supervisados aplicados a imágenes** — k-NN, SVM, árboles y Random Forest; introducción a redes convolucionales y transferencia de aprendizaje.
+- **5.3. Algoritmos no-supervisados aplicados a imágenes** — k-means sobre descriptores y comparación de grupos con etiquetas.
+- **5.4. Reducción de la dimensión** — PCA dentro del Pipeline y t-SNE para exploración.
+- **5.5. Evaluación del desempeño de los modelos** — particiones estratificadas y por grupo, validación cruzada, matriz de confusión, precisión, exhaustividad y F1; fuga de datos.
+
+## Sesiones síncronas
+
+### Sesión 5. Reconocimiento: del clasificador clásico a la transferencia de aprendizaje
+Entrenar y evaluar clasificadores sobre descriptores sin fuga de datos y compararlos con una red preentrenada.
+
+- Videoconferencias: VC8 (miércoles 14 de abril)
+- Cuaderno: [S5_Reconocimiento_clasico_y_profundo.ipynb](../sesiones/S5_Reconocimiento_clasico_y_profundo.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S5_Reconocimiento_clasico_y_profundo.ipynb)
+- Presentación: [S5_Reconocimiento_clasico_y_profundo.pptx](../presentaciones/S5_Reconocimiento_clasico_y_profundo.pptx)
+
+### Sesión 6. Flujo completo de procesamiento y reconocimiento
+Estructurar la actividad 5A como un flujo reproducible, evaluado y bien documentado.
+
+- Videoconferencias: VC9 (miércoles 5 de mayo)
+- Cuaderno: [S6_Flujo_completo_reconocimiento.ipynb](../sesiones/S6_Flujo_completo_reconocimiento.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S6_Flujo_completo_reconocimiento.ipynb)
+- Presentación: [S6_Flujo_completo_reconocimiento.pptx](../presentaciones/S6_Flujo_completo_reconocimiento.pptx)
+
+## Actividad
+- **5A. Flujo completo de procesamiento y reconocimiento** (30 puntos, domingo 16 de mayo). [Instrucciones y criterios](../actividades.qmd#act-5a) · [Plantilla](../plantillas/5A_Plantilla_Flujo_completo.ipynb) · [Lista de cotejo](../listas_cotejo/LC_5A_lista_cotejo.pdf)
+
+## Aprende
+1. Szeliski, R. (2022). Computer vision: Algorithms and applications (2nd ed., caps. 5: Deep learning y 6: Recognition). Springer. <https://szeliski.org/Book/>
+2. scikit-learn. (s.f.). Recognizing hand-written digits. [Página web]. <https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html>
+3. Varoquaux, G., Gouillart, E., & Vahtras, O. (Eds.). (s.f.). Simple visualization and classification of the digits dataset. Scipy Lecture Notes. [Página web]. <https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_digits_simple_classif.html>
+4. scikit-learn. (s.f.). Metrics and scoring: Quantifying the quality of predictions. [Página web]. <https://scikit-learn.org/stable/modules/model_evaluation.html>
+5. OpenCV. (s.f.). OpenCV-Python tutorials. [Página web]. <https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html>
+
+## Complementa (opcional)
+1. Kapoor, S., & Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns, 4(9), 100804. <https://doi.org/10.1016/j.patter.2023.100804>
+2. Stanford University. (s.f.). CS231n: Convolutional neural networks for visual recognition – Convolutional networks. [Notas de curso]. <https://cs231n.github.io/convolutional-networks/>
+3. PyTorch. (s.f.). Transfer learning for computer vision tutorial. [Página web]. <https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html>
+4. Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825–2830. <https://jmlr.org/papers/v12/pedregosa11a.html>
+5. He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. En Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 770–778). <https://doi.org/10.1109/CVPR.2016.90>

@@ -1,0 +1,11 @@
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.1
+opencv-python>=4.9
+scikit-image>=0.22
+scikit-learn>=1.4
+scipy>=1.11
+jupyterlab>=4.0
+# Opcional (sesión 5, transferencia de aprendizaje):
+# torch>=2.2
+# torchvision>=0.17

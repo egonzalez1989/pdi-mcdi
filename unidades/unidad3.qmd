@@ -1,0 +1,44 @@
+---
+title: "Unidad 3. Segmentación"
+subtitle: "Semanas 6 a 8 (15 de febrero al 7 de marzo)"
+---
+
+## Fin de aprendizaje
+Implementar y comparar distintos métodos de segmentación de imágenes (detección de bordes, umbralización y agrupamiento por intensidades/regiones) para separar objetos del fondo, analizando sus ventajas y limitaciones según el tipo de imagen y el problema de interés, comparando alternativas con métricas de coincidencia (IoU y Dice) y argumentando la pertinencia de cada método en función de las características de la imagen y del problema planteado.
+
+## Introducción
+En esta unidad estudiarás la segmentación de imágenes como etapa clave del procesamiento digital: el objetivo es dividir la imagen en regiones significativas (objetos, fondo, zonas de interés) a partir de cambios de intensidad o similitud entre píxeles. La calidad de la segmentación impacta directamente en las etapas posteriores de descripción y reconocimiento.
+
+Trabajarás con enfoques clásicos: segmentación basada en discontinuidades (Sobel y Canny), en similaridad (umbralización global, de Otsu y adaptativa), por regiones (componentes conexas y watershed) y por agrupamiento de intensidades (k-means). A través de ejemplos prácticos con OpenCV y scikit-image aprenderás a ajustar parámetros, a interpretar los resultados y a medirlos contra una máscara de referencia con IoU y Dice. Conocerás también, a manera de panorama, los modelos de segmentación basados en aprendizaje profundo (U-Net y Segment Anything).
+
+## Temas
+- **3.1. Introducción sobre segmentación de imágenes** — objetivos y tipos de segmentación; evaluación contra una referencia (IoU y Dice); panorama de U-Net y Segment Anything.
+- **3.2. Segmentación por discontinuidades** — gradiente, Sobel, Canny y transformada de Hough.
+- **3.3. Segmentación por similaridad** — umbralización global, Otsu y adaptativa; componentes conexas y watershed; agrupamiento k-means.
+
+## Sesiones síncronas
+
+### Sesión 3. Separar objetos del fondo y medir qué tan bien lo hacemos
+Comparar métodos de segmentación clásicos y evaluarlos con IoU y Dice.
+
+- Videoconferencias: VC4 (miércoles 17 de febrero), VC5 (miércoles 3 de marzo)
+- Cuaderno: [S3_Segmentacion.ipynb](../sesiones/S3_Segmentacion.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S3_Segmentacion.ipynb)
+- Presentación: [S3_Segmentacion.pptx](../presentaciones/S3_Segmentacion.pptx)
+
+## Actividad
+- **3A. Segmentación de imágenes con OpenCV** (20 puntos, domingo 7 de marzo). [Instrucciones y criterios](../actividades.qmd#act-3a) · [Plantilla](../plantillas/3A_Plantilla_Segmentacion.ipynb) · [Lista de cotejo](../listas_cotejo/LC_3A_lista_cotejo.pdf)
+
+## Aprende
+1. Najman, L. (s.f.). Segmentation – basics. [Documento en PDF]. <https://www.laurentnajman.org/uploads/ImageCourse/segmentation1_ln.pdf>
+2. OpenCV. (s.f.). Canny edge detection. [Página web]. <https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html>
+3. OpenCV. (s.f.). Image thresholding. [Página web]. <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>
+4. Universidad de Sevilla. (s.f.). Tema 5: Segmentación (regiones, umbralización). [Documento en PDF]. <https://asignatura.us.es/imagendigital/Tema5-2_SegmentacionRegionesUmbralizacion.pdf>
+5. Universidad Miguel Hernández. (s.f.). Tema 6: Segmentación de la imagen. [Documento en PDF]. <https://isa.umh.es/asignaturas/rvc/Tema%206.%20Segmentacion%20de%20la%20imagen.pdf>
+
+## Complementa (opcional)
+1. Otsu, N. (1979). A threshold selection method from gray-level histograms. IEEE Transactions on Systems, Man, and Cybernetics, 9(1), 62–66. <https://doi.org/10.1109/TSMC.1979.4310076>
+2. Canny, J. (1986). A computational approach to edge detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 8(6), 679–698. <https://doi.org/10.1109/TPAMI.1986.4767851>
+3. scikit-image. (s.f.). Watershed segmentation. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_watershed.html>
+4. scikit-image. (s.f.). Comparison of segmentation and superpixel algorithms. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_segmentations.html>
+5. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional networks for biomedical image segmentation. En Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234–241). Springer. <https://doi.org/10.1007/978-3-319-24574-4_28>
+6. Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A. C., Lo, W.-Y., Dollár, P., & Girshick, R. (2023). Segment anything. En Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4015–4026). <https://arxiv.org/abs/2304.02643>

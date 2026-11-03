@@ -1,0 +1,29 @@
+---
+title: "Datos de práctica"
+---
+
+La carpeta [`datos/`](https://github.com/egonzalez1989/pdi-mcdi/tree/main/datos) contiene imágenes de uso libre organizadas por tema. Las plantillas de las actividades las encuentran automáticamente si clonas el repositorio; en Colab las descargan solas.
+
+| Carpeta | Contenido | Uso sugerido |
+|---|---|---|
+| `datos/imagenes/` | Fotografías y documentos: cámara, astronauta, gato, café, página escaneada, luna | Unidades 1 y 2 (actividades 1A y 2A) |
+| `datos/segmentacion/` | `monedas.png` y `objetos_sinteticos.png`, cada una con su máscara de referencia (`*_mascara.png`) | Unidad 3: evaluación con IoU y Dice (actividad 3A) |
+| `datos/texturas/` | 90 parches de 64 × 64 píxeles de tres clases (ladrillo, pasto y grava), con brillo variable | Unidades 4 y 5 (actividades 4A y 5A) |
+
+::: {.callout-note}
+## Origen y licencias
+Las imágenes provienen del módulo `skimage.data` de scikit-image (consulta sus licencias en <https://scikit-image.org/docs/stable/api/skimage.data.html>). La máscara de `monedas.png` es semiautomática (watershed con marcadores); la de `objetos_sinteticos.png` es exacta porque la imagen es sintética. Los parches de textura son recortes aleatorios con cambios de brillo.
+:::
+
+## Para tus actividades
+Puedes (y es recomendable) usar imágenes de tu ámbito profesional. Organízalas en una carpeta por clase:
+
+```
+mis_datos/
+├── clase_a/  img001.jpg  img002.jpg  ...
+└── clase_b/  img101.jpg  ...
+```
+
+También puedes consultar el repositorio de imágenes del curso en ciclos anteriores: <https://github.com/NavaSergio/pdi-datasets>.
+
+Antes de usar imágenes de personas, verifica que cuentas con consentimiento y protege los datos personales.

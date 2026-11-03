@@ -1,0 +1,152 @@
+---
+title: "Actividades"
+---
+
+Las cinco actividades son **individuales** y se resuelven en una libreta Jupyter ejecutable y documentada. En cada una se entregan dos archivos en el aula virtual: `XX_Nombre_Apellido.ipynb` y `XX_Nombre_Apellido.pdf`.
+
+::: {.callout-note}
+## Antes de entregar
+- `Entorno de ejecución → Reiniciar y ejecutar todo`: el cuaderno debe ejecutarse sin errores.
+- Cada figura va acompañada de su interpretación en Markdown.
+- Cita en formato APA las fuentes consultadas, incluido el uso de asistentes de IA.
+:::
+
+## 1A. Introducción y manipulación básica de imágenes con OpenCV {#act-1a}
+
+**Unidad 1** · Individual · **10 puntos** · Entrega: **Domingo 24 de enero de 2027, 23:59 hrs.**
+
+Cargar, inspeccionar, transformar y guardar imágenes digitales con OpenCV, interpretando su representación como arreglos numéricos.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/plantillas/1A_Plantilla_Manipulacion_basica.ipynb) [Plantilla](plantillas/1A_Plantilla_Manipulacion_basica.ipynb) · [Lista de cotejo (PDF)](listas_cotejo/LC_1A_lista_cotejo.pdf)
+
+::: {.callout-tip collapse="true"}
+## Instrucciones
+1. Descarga el cuaderno plantilla 1A_Plantilla_Manipulacion_basica.ipynb del repositorio del curso y ábrelo en Google Colab o en tu entorno local. Usa al menos una imagen de tu interés (o una de la carpeta datos/ del repositorio).
+2. Carga y visualización: carga la imagen en color con OpenCV, muéstrala con matplotlib antes y después de convertir de BGR a RGB y explica la diferencia; muéstrala también en escala de grises.
+3. Información de la imagen: imprime dimensiones, número de canales, tipo de dato y rango de intensidades (mínimo y máximo).
+4. Cambio de tamaño: genera versiones al doble (2×) y a la mitad (0.5×) del tamaño y compara dos métodos de interpolación (por ejemplo, vecino más cercano y bilineal). Comenta las implicaciones en tiempo de procesamiento y detalle visible.
+5. Rotación: gira la imagen en al menos tres ángulos distintos (por ejemplo, 15°, 45° y 90°) y explica en qué contextos sería necesario corregir la orientación antes de analizarla.
+6. Guardado de resultados: guarda al menos una versión modificada en PNG y en JPEG, vuelve a cargarlas, verifica que se visualizan correctamente y compara el tamaño de ambos archivos.
+7. Documenta cada bloque en celdas Markdown (qué operación aplicas, con qué parámetros y qué observas) y cierra con una conclusión breve.
+8. Guarda tu libreta como 1A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre (1A_Nombre_Apellido.pdf) y entrega ambos archivos en el espacio de la actividad.
+:::
+
+| Criterio | Puntos |
+|---|---|
+| Exploración básica (lectura, visualización con corrección BGR → RGB e información de la imagen). | 3 |
+| Transformaciones geométricas básicas (cambio de tamaño con dos interpolaciones y rotación) y guardado/recarga en PNG y JPEG. | 3 |
+| Código funcional y visualizaciones claras. | 2 |
+| Claridad en Markdown, organización y formato de entrega. | 2 |
+| **Total** | **10** |
+
+## 2A. Preprocesamiento de imágenes con OpenCV {#act-2a}
+
+**Unidad 2** · Individual · **15 puntos** · Entrega: **Domingo 14 de febrero de 2027, 23:59 hrs.**
+
+Aplicar y comparar técnicas de preprocesamiento, justificando la elección con criterios visuales y métricas cuantitativas.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/plantillas/2A_Plantilla_Preprocesamiento.ipynb) [Plantilla](plantillas/2A_Plantilla_Preprocesamiento.ipynb) · [Lista de cotejo (PDF)](listas_cotejo/LC_2A_lista_cotejo.pdf)
+
+::: {.callout-tip collapse="true"}
+## Instrucciones
+1. Descarga el cuaderno plantilla 2A_Plantilla_Preprocesamiento.ipynb y selecciona al menos una imagen de tu interés (puede ser distinta a la de la Unidad 1).
+2. Transformaciones de intensidad y contraste: compara la imagen original con un ajuste lineal de contraste y una corrección gamma; comenta en qué contextos sería útil cada transformación.
+3. Histogramas y ecualización: calcula el histograma de la imagen original y de la transformada; aplica ecualización global y CLAHE y comenta en qué regiones mejora (o no) el contraste.
+4. Filtrado espacial y métricas: añade ruido gaussiano y ruido sal y pimienta a una copia de la imagen; aplica al menos dos filtros (promedio, gaussiano, mediana) y construye una tabla con PSNR y SSIM respecto a la imagen original para elegir el filtro más adecuado a cada tipo de ruido. Opcional: aplica un filtro pasa-bajas en el dominio de la frecuencia (Fourier) y compáralo con el gaussiano.
+5. Operaciones morfológicas: binariza la imagen (por ejemplo, con Otsu) y aplica erosión, dilatación y al menos una combinación (apertura o cierre); describe su efecto sobre los objetos y el ruido.
+6. Transformaciones geométricas: aplica una rotación y un cambio de tamaño y comenta en qué problemas sería importante alinear la imagen o normalizar su tamaño antes de extraer características.
+7. Estructura tu libreta con secciones y explica en Markdown qué operación aplicas, con qué parámetros y qué observas; justifica tus decisiones de preprocesamiento con las métricas obtenidas.
+8. Guarda tu libreta como 2A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+:::
+
+| Criterio | Puntos |
+|---|---|
+| Transformaciones de intensidad y análisis de histogramas (incluye ecualización global y CLAHE). | 4 |
+| Aplicación y comparación de filtros espaciales / reducción de ruido, con tabla de PSNR y SSIM. | 4 |
+| Uso adecuado de operaciones morfológicas y transformaciones geométricas. | 3 |
+| Claridad en el código, visualizaciones y documentación en Markdown. | 4 |
+| **Total** | **15** |
+
+## 3A. Segmentación de imágenes con OpenCV {#act-3a}
+
+**Unidad 3** · Individual · **20 puntos** · Entrega: **Domingo 7 de marzo de 2027, 23:59 hrs.**
+
+Implementar y comparar métodos de segmentación por bordes, umbralización y agrupamiento, evaluándolos visual y cuantitativamente.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/plantillas/3A_Plantilla_Segmentacion.ipynb) [Plantilla](plantillas/3A_Plantilla_Segmentacion.ipynb) · [Lista de cotejo (PDF)](listas_cotejo/LC_3A_lista_cotejo.pdf)
+
+::: {.callout-tip collapse="true"}
+## Instrucciones
+1. Descarga el cuaderno plantilla 3A_Plantilla_Segmentacion.ipynb. Selecciona una o dos imágenes con objetos diferenciables del fondo (piezas, semillas, monedas, objetos sobre una mesa); puedes usar las de la carpeta datos/segmentacion del repositorio, que incluyen máscara de referencia.
+2. Segmentación por discontinuidades: aplica Sobel y visualiza la magnitud del gradiente; aplica Canny con distintos pares de umbrales y comenta qué parámetros producen bordes más útiles.
+3. Segmentación por similaridad: aplica umbralización global con al menos dos valores, el método de Otsu y, si es posible, umbralización adaptativa; compara las máscaras.
+4. Agrupamiento: reordena los píxeles como vector de intensidades, aplica k-means con K = 2 o K = 3 y reconstruye la imagen segmentada a partir de las etiquetas.
+5. Evaluación cuantitativa: compara las máscaras obtenidas contra la máscara de referencia (la del repositorio o una que dibujes en GIMP) con IoU y Dice, y presenta una tabla comparativa.
+6. Análisis comparativo: coloca en una misma figura las salidas de bordes, umbralización y k-means y comenta qué método separa mejor los objetos, qué errores aparecen (bordes falsos, regiones fragmentadas, pérdida de detalle) y qué ajustes harías en una siguiente iteración.
+7. Guarda tu libreta como 3A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+:::
+
+| Criterio | Puntos |
+|---|---|
+| Implementación de segmentación por bordes (Sobel/Canny). | 5 |
+| Implementación de umbralización (global y Otsu/adaptativa). | 5 |
+| Implementación de segmentación basada en intensidades (p. ej., k-means). | 4 |
+| Claridad en código, visualizaciones y análisis comparativo en Markdown, con evaluación IoU/Dice contra la referencia. | 6 |
+| **Total** | **20** |
+
+## 4A. Descriptores de textura, forma y color con reducción de dimensión {#act-4a}
+
+**Unidad 4** · Individual · **25 puntos** · Entrega: **Domingo 4 de abril de 2027, 23:59 hrs.**
+
+Construir descriptores de textura, forma y color, combinarlos en un vector de características y explorar la separación entre clases con PCA.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/plantillas/4A_Plantilla_Descriptores.ipynb) [Plantilla](plantillas/4A_Plantilla_Descriptores.ipynb) · [Lista de cotejo (PDF)](listas_cotejo/LC_4A_lista_cotejo.pdf)
+
+::: {.callout-tip collapse="true"}
+## Instrucciones
+1. Descarga el cuaderno plantilla 4A_Plantilla_Descriptores.ipynb. Elige un conjunto de al menos 20 imágenes o parches con al menos dos clases visualmente diferenciables (puedes usar la carpeta datos/texturas del repositorio) y registra la etiqueta de cada una.
+2. Textura (GLCM): convierte a escala de grises, calcula la matriz de co-ocurrencia con al menos un par (distancia, ángulo) y extrae contraste, energía y homogeneidad. Opcional: histograma LBP uniforme.
+3. Color: calcula histogramas por canal normalizados o momentos de color (media, varianza, asimetría) en RGB o HSV y comenta qué aportan frente a la textura.
+4. Forma: a partir de una versión binarizada, calcula los momentos invariantes de Hu (en escala logarítmica) u otros descriptores sencillos (área, circularidad).
+5. Vector de características: combina textura, color y forma en un vector por imagen, construye la matriz de diseño (tabla de pandas) y estandariza las columnas.
+6. Reducción de dimensión: aplica PCA a 2 componentes, reporta la varianza explicada y grafica PC1 vs. PC2 con un color por clase. Opcional: compara con t-SNE.
+7. Interpretación: discute si se observa separación entre clases, qué clases se confunden y qué descriptor agregarías o quitarías.
+8. Guarda tu libreta como 4A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+:::
+
+| Criterio | Puntos |
+|---|---|
+| Cálculo adecuado de descriptores de textura, color y forma. | 7 |
+| Construcción del vector de características (estandarizado) y aplicación de reducción de dimensión. | 7 |
+| Interpretación de los resultados (separación, similitudes, limitaciones). | 5 |
+| Claridad en el código, visualizaciones y documentación en Markdown. | 6 |
+| **Total** | **25** |
+
+## 5A. Flujo completo de procesamiento y reconocimiento {#act-5a}
+
+**Unidad 5** · Individual · **30 puntos** · Entrega: **Domingo 16 de mayo de 2027, 23:59 hrs.**
+
+Diseñar, implementar y evaluar un flujo completo de procesamiento de imágenes y aprendizaje automático para un problema de clasificación o agrupamiento.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/plantillas/5A_Plantilla_Flujo_completo.ipynb) [Plantilla](plantillas/5A_Plantilla_Flujo_completo.ipynb) · [Lista de cotejo (PDF)](listas_cotejo/LC_5A_lista_cotejo.pdf)
+
+::: {.callout-tip collapse="true"}
+## Instrucciones
+1. Descarga el cuaderno plantilla 5A_Plantilla_Flujo_completo.ipynb. Define qué quieres distinguir o agrupar e indica cuántas imágenes utilizarás, de dónde provienen y cómo las organizaste (carpetas, nombres o tabla de etiquetas).
+2. Preprocesamiento: aplica las operaciones necesarias (cambio de tamaño, conversión de color, filtrado, normalización) y justifica brevemente cada una.
+3. Segmentación (opcional, recomendable si trabajas con objetos sobre fondo): aplica alguno de los métodos de la Unidad 3 y explica si ayuda a definir las regiones de interés.
+4. Extracción de características: define los descriptores (histogramas, GLCM/LBP, momentos de Hu, color) y construye la matriz de características, verificando su dimensión.
+5. Modelo supervisado: separa entrenamiento y prueba de forma estratificada (por ejemplo, 70 %–30 %, con semilla fija); construye un Pipeline (estandarización + clasificador) y compara al menos dos modelos (k-NN, SVM, árbol o Random Forest) con validación cruzada. Si varias imágenes provienen de la misma fuente, usa partición por grupos para evitar fuga de datos. Alternativa no supervisada: aplica k-means y analiza la relación de los grupos con tus etiquetas.
+6. Evaluación: reporta matriz de confusión, exactitud y F1 (macro y por clase) en el conjunto de prueba, y muestra ejemplos de imágenes mal clasificadas. Opcional: compara tus descriptores con embeddings de una red preentrenada (ResNet-18), como se muestra en la sesión síncrona.
+7. Análisis y discusión: ¿qué tan bien funcionó el flujo?, ¿cuáles fueron las principales fuentes de error?, ¿qué cambiarías en una versión mejorada (más datos, otros descriptores, otro modelo)?
+8. Organiza tu libreta en secciones (Problema y datos, Preprocesamiento, Segmentación, Características, Modelo y resultados, Discusión) de modo que alguien que no tomó el curso entienda qué hiciste y por qué. Guárdala como 5A_Nombre_Apellido.ipynb, expórtala a PDF con el mismo nombre y entrega ambos archivos.
+:::
+
+| Criterio | Puntos |
+|---|---|
+| Definición del problema y descripción del conjunto de datos. | 6 |
+| Diseño e implementación del flujo (preprocesamiento, segmentación opcional, extracción de características). | 8 |
+| Implementación y evaluación del modelo de aprendizaje automático (Pipeline, validación cruzada, matriz de confusión y F1). | 8 |
+| Claridad en el análisis de resultados, conclusiones y documentación. | 8 |
+| **Total** | **30** |
+

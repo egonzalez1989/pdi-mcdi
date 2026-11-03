@@ -1,0 +1,42 @@
+---
+title: "Unidad 1. Introducción al procesamiento digital de imágenes"
+subtitle: "Semanas 1 y 2 (11 al 24 de enero)"
+---
+
+## Fin de aprendizaje
+Comprender el papel del procesamiento digital de imágenes en la ciencia de datos e implementar operaciones básicas de lectura, visualización, manipulación geométrica y almacenamiento de imágenes digitales usando OpenCV en un entorno reproducible, identificando su representación como arreglos numéricos (resolución, tipo de dato y canales de color).
+
+## Introducción
+En esta unidad conocerás los elementos fundamentales del procesamiento digital de imágenes (PDI) y su relación con la ciencia de datos y la visión artificial. Partirás de la representación digital de una imagen (píxeles, resolución, niveles de gris y color) y revisarás cómo cargar, visualizar y guardar imágenes en tu entorno de trabajo.
+
+Además, configurarás un entorno reproducible (Jupyter o Google Colab y, opcionalmente, Quarto) para documentar tus experimentos, y aprenderás a evitar los errores más comunes al tratar imágenes como datos: el orden de canales BGR de OpenCV, el desbordamiento del tipo uint8 y la pérdida por compresión JPEG. El objetivo es que, al finalizar la unidad, cuentes con una base sólida para las actividades de preprocesamiento, segmentación y reconocimiento de las unidades posteriores.
+
+## Temas
+- **1.1. Visión natural** — formación de la imagen en el ojo humano y percepción del color.
+- **1.2. Visión artificial** — del sensor a la imagen digital; aplicaciones y consideraciones éticas (privacidad y sesgo).
+- **1.3. Conceptos básicos sobre el procesamiento digital de imágenes** — muestreo y cuantización, la imagen como arreglo (dimensiones, canales, tipo de dato), espacios de color (RGB/BGR, gris, HSV), formatos y compresión, entorno reproducible.
+
+## Sesiones síncronas
+
+### Sesión 1. La imagen como arreglo numérico
+Manipular imágenes como arreglos NumPy y evitar los errores clásicos de color, tipo de dato y compresión.
+
+- Videoconferencias: VC1 (miércoles 13 de enero), VC2 (miércoles 20 de enero)
+- Cuaderno: [S1_Imagen_digital_como_dato.ipynb](../sesiones/S1_Imagen_digital_como_dato.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S1_Imagen_digital_como_dato.ipynb)
+- Presentación: [S1_Imagen_digital_como_dato.pptx](../presentaciones/S1_Imagen_digital_como_dato.pptx)
+
+## Actividad
+- **1A. Introducción y manipulación básica de imágenes con OpenCV** (10 puntos, domingo 24 de enero). [Instrucciones y criterios](../actividades.qmd#act-1a) · [Plantilla](../plantillas/1A_Plantilla_Manipulacion_basica.ipynb) · [Lista de cotejo](../listas_cotejo/LC_1A_lista_cotejo.pdf)
+
+## Aprende
+1. Imagina Formación. (2024). Procesamiento de imágenes con OpenCV en Python. [Página web]. <https://imaginaformacion.com/tutoriales/opencv-en-python>
+2. OpenCV. (s.f.). OpenCV-Python tutorials: Introduction to OpenCV. [Página web]. <https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html>
+3. OpenCV. (s.f.). Image file reading and writing (imgcodecs). [Página web]. <https://docs.opencv.org/4.x/d4/da8/group__imgcodecs.html>
+4. OpenCV. (s.f.). Basic operations on images. [Página web]. <https://docs.opencv.org/4.x/d3/df2/tutorial_py_basic_ops.html>
+5. scikit-image. (s.f.). A crash course on NumPy for images. [Página web]. <https://scikit-image.org/docs/stable/user_guide/numpy_images.html>
+
+## Complementa (opcional)
+1. Gonzalez, R. C., & Woods, R. E. (2018). Digital image processing (4th ed.). Pearson. Caps. 1 y 2.
+2. Szeliski, R. (2022). Computer vision: Algorithms and applications (2nd ed., cap. 2: Image formation, secc. 2.2–2.3). Springer. <https://szeliski.org/Book/>
+3. OpenCV. (s.f.). Changing colorspaces. [Página web]. <https://docs.opencv.org/4.x/df/d9d/tutorial_py_colorspaces.html>
+4. van der Walt, S., Schönberger, J. L., Nunez-Iglesias, J., Boulogne, F., Warner, J. D., Yager, N., Gouillart, E., Yu, T., & the scikit-image contributors. (2014). scikit-image: Image processing in Python. PeerJ, 2, e453. <https://doi.org/10.7717/peerj.453>

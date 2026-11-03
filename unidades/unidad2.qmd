@@ -1,0 +1,46 @@
+---
+title: "Unidad 2. Preprocesamiento"
+subtitle: "Semanas 3 a 5 (25 de enero al 14 de febrero)"
+---
+
+## Fin de aprendizaje
+Aplicar técnicas de preprocesamiento de imágenes (transformaciones de intensidad, filtrado espacial y frecuencial, operaciones morfológicas y transformaciones geométricas) y evaluar su impacto en la calidad de la imagen mediante criterios visuales y métricas cuantitativas (MSE, PSNR y SSIM), comparando alternativas y argumentando la selección de los esquemas de preprocesamiento más adecuados, como base para etapas posteriores de segmentación y reconocimiento.
+
+## Introducción
+En esta unidad profundizarás en las técnicas de preprocesamiento que permiten mejorar la calidad de las imágenes digitales antes de analizarlas. Estudiarás transformaciones de intensidad (brillo, contraste y corrección gamma), el uso de histogramas y la ecualización (global y adaptativa, CLAHE), filtros espaciales para suavizar o resaltar detalles, una introducción al dominio de la frecuencia con la transformada de Fourier, operaciones morfológicas básicas y transformaciones geométricas simples.
+
+El propósito es que seas capaz de seleccionar y combinar adecuadamente estas técnicas de acuerdo con el problema que quieres resolver: reducir ruido, resaltar bordes, homogeneizar el fondo o corregir la orientación de los objetos. Como científico de datos, no basta con que una imagen «se vea mejor»: aprenderás a medir el efecto de cada técnica con métricas como PSNR y SSIM. Todo ello se implementará en un entorno reproducible con Python y OpenCV.
+
+## Temas
+- **2.1. Mejoramiento de la imagen** — transformaciones de intensidad, histograma, ecualización y CLAHE; métricas de calidad MSE, PSNR y SSIM.
+- **2.2. Procesamiento espacial y frecuencial** — convolución; filtros promedio, gaussiano, mediana y de realce; transformada de Fourier y filtros pasa-bajas/pasa-altas.
+- **2.3. Operaciones morfológicas** — erosión, dilatación, apertura, cierre y top-hat sobre imágenes binarizadas.
+- **2.4. Transformaciones geométricas** — rotación, escalamiento, recorte, transformaciones afines y su uso para aumento de datos.
+
+## Sesiones síncronas
+
+### Sesión 2. Preprocesar con evidencia: filtrar, medir y decidir
+Comparar técnicas de preprocesamiento y justificar la elección con PSNR y SSIM.
+
+- Videoconferencias: VC3 (miércoles 3 de febrero)
+- Cuaderno: [S2_Mejora_y_preprocesamiento.ipynb](../sesiones/S2_Mejora_y_preprocesamiento.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S2_Mejora_y_preprocesamiento.ipynb)
+- Presentación: [S2_Mejora_y_preprocesamiento.pptx](../presentaciones/S2_Mejora_y_preprocesamiento.pptx)
+
+## Actividad
+- **2A. Preprocesamiento de imágenes con OpenCV** (15 puntos, domingo 14 de febrero). [Instrucciones y criterios](../actividades.qmd#act-2a) · [Plantilla](../plantillas/2A_Plantilla_Preprocesamiento.ipynb) · [Lista de cotejo](../listas_cotejo/LC_2A_lista_cotejo.pdf)
+
+## Aprende
+1. OpenCV. (s.f.). Arithmetic operations on images. [Página web]. <https://docs.opencv.org/4.x/d0/d86/tutorial_py_image_arithmetics.html>
+2. Peguero Núñez, P. (s.f.). Realce y restauración de imágenes. [Documento en PDF]. Universidad de Valladolid. <https://www.lpi.tel.uva.es/muitic/pim/docus/Realce_y_restauracion.pdf>
+3. Giménez-Palomares, F., Monsoriu, J. A., y Alemany-Martínez, E. (2016). Aplicación de la convolución de matrices al filtrado de imágenes. Modelling in Science Education and Learning, 9(1), 97–108. <https://doi.org/10.4995/msel.2016.4524>
+4. León-Batallas, A., Bermeo-Paucar, J., Paredes-Quevedo, J., y Torres-Ordoñez, H. (2020). Una revisión de las métricas aplicadas en el procesamiento de imágenes. RECIMUNDO, 4(3), 267–273. <https://doi.org/10.26820/recimundo/4.(3).julio.2020.267-273>
+5. Mazet, V. (2021). Histogram transformations. [Página web]. Basics of Image Processing. <https://vincmazet.github.io/bip/digital-images/histogram.html>
+6. Mazet, V. (2021). Filtering. [Página web]. Basics of Image Processing. <https://vincmazet.github.io/bip/filtering/filtering.html>
+
+## Complementa (opcional)
+1. Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004). Image quality assessment: From error visibility to structural similarity. IEEE Transactions on Image Processing, 13(4), 600–612. <https://doi.org/10.1109/TIP.2003.819861>
+2. OpenCV. (s.f.). Histograms 2: Histogram equalization (incluye CLAHE). [Página web]. <https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html>
+3. OpenCV. (s.f.). Fourier transform. [Página web]. <https://docs.opencv.org/4.x/de/dbc/tutorial_py_fourier_transform.html>
+4. OpenCV. (s.f.). Morphological transformations. [Página web]. <https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>
+5. OpenCV. (s.f.). Geometric transformations of images. [Página web]. <https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html>
+6. Gonzalez, R. C., & Woods, R. E. (2018). Digital image processing (4th ed.). Pearson. Caps. 3, 4 y 9.

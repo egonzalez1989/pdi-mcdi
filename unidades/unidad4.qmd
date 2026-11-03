@@ -1,0 +1,48 @@
+---
+title: "Unidad 4. Descripción y representación de imágenes digitales"
+subtitle: "Semanas 9 a 12 (8 de marzo al 4 de abril)"
+---
+
+## Fin de aprendizaje
+Construir y analizar descriptores de textura, forma y color para representar imágenes de manera compacta y significativa, y aplicar una técnica básica de reducción de dimensión (por ejemplo, PCA) sobre características estandarizadas para visualizar y explorar la separación entre clases o tipos de imágenes.
+
+## Introducción
+En esta unidad trabajarás con la idea de que, para poder clasificar o agrupar imágenes, primero necesitamos traducirlas a vectores numéricos que capten sus características más importantes. Estos vectores se conocen como descriptores o características y pueden referirse a propiedades de textura, forma, color u otras.
+
+Revisarás descriptores clásicos basados en la matriz de co-ocurrencia de niveles de gris (GLCM) y en patrones binarios locales (LBP), los momentos invariantes de Hu y otras propiedades de regiones, y descriptores de color (histogramas y momentos de color). Construirás una matriz de diseño como la de cualquier proyecto de ciencia de datos, la estandarizarás y utilizarás PCA (y opcionalmente t-SNE) para proyectar los descriptores a un espacio de menor dimensión que facilite su interpretación visual y la exploración de posibles separaciones entre clases.
+
+## Temas
+- **4.1. Introducción sobre descripción y representación de imágenes digitales** — del píxel al vector de características; propiedades de un buen descriptor.
+- **4.2. Variables y descriptores** — descriptores de forma: área, perímetro, circularidad, excentricidad y momentos de Hu.
+- **4.3. Representación de imágenes** — matriz de diseño, estandarización y visualización con PCA.
+- **4.4. Texturas** — matriz de co-ocurrencia (GLCM, Haralick) y patrones binarios locales (LBP).
+- **4.5. Color** — histogramas y momentos de color en RGB y HSV.
+- **4.6. Extracción de características** — vector combinado de características; HOG y embeddings de redes preentrenadas como referencia.
+
+## Sesiones síncronas
+
+### Sesión 4. De la imagen al vector: descriptores y PCA
+Construir una matriz de diseño con descriptores de forma, textura y color y explorarla con PCA.
+
+- Videoconferencias: VC6 (miércoles 10 de marzo), VC7 (miércoles 31 de marzo)
+- Cuaderno: [S4_Descriptores_y_representacion.ipynb](../sesiones/S4_Descriptores_y_representacion.ipynb) [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egonzalez1989/pdi-mcdi/blob/main/sesiones/S4_Descriptores_y_representacion.ipynb)
+- Presentación: [S4_Descriptores_y_representacion.pptx](../presentaciones/S4_Descriptores_y_representacion.pptx)
+
+## Actividad
+- **4A. Descriptores de textura, forma y color con reducción de dimensión** (25 puntos, domingo 4 de abril). [Instrucciones y criterios](../actividades.qmd#act-4a) · [Plantilla](../plantillas/4A_Plantilla_Descriptores.ipynb) · [Lista de cotejo](../listas_cotejo/LC_4A_lista_cotejo.pdf)
+
+## Aprende
+1. Hall-Beyer, M. (2017). GLCM texture: A tutorial (v. 3.0). [Documento en PDF]. University of Calgary. <https://prism.ucalgary.ca/handle/1880/51900>
+2. Haralick, R. M., Shanmugam, K., & Dinstein, I. (1973). Textural features for image classification. IEEE Transactions on Systems, Man, and Cybernetics, 3(6), 610–621. <https://doi.org/10.1109/TSMC.1973.4309314>
+3. scikit-image. (s.f.). GLCM texture features. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html>
+4. Hu, M.-K. (1962). Visual pattern recognition by moment invariants. IRE Transactions on Information Theory, 8(2), 179–187. <https://doi.org/10.1109/TIT.1962.1057692>
+5. Keen, N. (2005). Color moments. [Documento en PDF]. University of Edinburgh. <https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/KEEN/av_as2_nkeen.pdf>
+6. Rui, Y., Huang, T. S., & Chang, S.-F. (1999). Image retrieval: Current techniques, promising directions, and open issues. Journal of Visual Communication and Image Representation, 10(1), 39–62. <https://doi.org/10.1006/jvci.1999.0413>
+
+## Complementa (opcional)
+1. scikit-image. (s.f.). Local binary pattern for texture classification. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_local_binary_pattern.html>
+2. Ojala, T., Pietikäinen, M., & Mäenpää, T. (2002). Multiresolution gray-scale and rotation invariant texture classification with local binary patterns. IEEE Transactions on Pattern Analysis and Machine Intelligence, 24(7), 971–987. <https://doi.org/10.1109/TPAMI.2002.1017623>
+3. scikit-image. (s.f.). Measure region properties. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_regionprops.html>
+4. scikit-image. (s.f.). Histogram of oriented gradients. [Página web]. <https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_hog.html>
+5. scikit-learn. (s.f.). Decomposing signals in components: Principal component analysis (PCA). [Página web]. <https://scikit-learn.org/stable/modules/decomposition.html#pca>
+6. Nixon, M. S., & Aguado, A. S. (2019). Feature extraction and image processing for computer vision (4th ed.). Academic Press.
